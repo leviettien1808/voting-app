@@ -1,9 +1,9 @@
-import './App.css';
+import "./App.css";
 import ProductList from "./components/ProductList";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <h1>Popular Products</h1>
       <ProductList />
     </div>

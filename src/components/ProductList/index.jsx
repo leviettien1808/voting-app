@@ -40,7 +40,7 @@ class ProductList extends React.Component {
       />
     ));
 
-    return <div>{productComponents}</div>;
+    return <div style={{ padding: "0px 20%" }}>{productComponents}</div>;
   }
 }
 

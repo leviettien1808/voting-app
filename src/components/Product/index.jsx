@@ -13,7 +13,7 @@ export default class Product extends Component {
         <div style={{ marginRight: 24 }}>
           <img src={this.props.productImageUrl} />
         </div>
-        <div>
+        <div style={{ textAlign: "left" }}>
           <div>
             <a onClick={this.handleUpVote}>⏶</a>
             {this.props.votes}
